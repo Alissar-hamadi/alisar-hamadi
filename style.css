@@ -1,0 +1,614 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.header {
+    background-image: url(bakery.jpg);
+    padding: 20px;
+}
+
+.bottom {
+    justify-content: space-between;
+}
+
+.header .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header-logo {
+    transform: scale(1.2, 2);
+    transition: all;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigations ul {
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    font-size: 2px;
+
+}
+
+.navigations ul li a {
+    color:white;
+    font-size: medium;
+    text-decoration: solid;
+    transition: 0.3s ease;
+}
+
+.navigations img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav-short {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+section.nav-short .nav-item {
+    width: 20px;
+    aspect-ratio: 1/5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+section.nav-shortcuts .preview {
+    height: 80%;
+    aspect-ratio: 1 / 1.37;
+    background: #ccc;
+    border-radius: 1.3vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.content h1 {
+    background: #dcbb7d;
+    height: 40px;
+    padding: 12px 20px 0;
+    max-width: 200px;
+    font-size: 20px;
+}
+.content p{
+    color:black;
+}
+
+.nav-short a {
+    font-size: 20px;
+    bottom: -15px;
+    background: #dcbb7d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 2px 15px;
+}
+
+.nav-item-down {
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.menu {
+    padding-top: 30px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.menu h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    background: #dcbb7d;
+    padding: 12px 20px 0;
+}
+
+.item-content {
+    display: flex;
+    gap: 50px;
+    padding-left: 500px;
+    padding-top: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.preview-image {
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+}
+
+.item-text {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding-top: 5px;
+}
+
+.nav-list menu {
+    display: flex;
+}
+
+.logomenu {
+    display: block;
+}
+
+.logomenu img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.footer {
+    display: flex;
+    flex: 1px;
+    flex-direction: column;
+    color: white;
+    padding: 10px 20px 15px 15px;
+}
+.fbody {
+    background-image: url(bakery.jpg);
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.info {
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.rinfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    gap: 5px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer .info {
+    display: flex;
+    flex-direction: column;
+    flex: 1px;
+    gap: 20px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.order {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-right: 200px;
+}
+.fbutton{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.infolinks {
+    position: fixed;
+    width: unset;
+    height: unset;
+    padding-top: 120px;
+    bottom: 1px;
+    right: 0;
+    gap: 3px;
+    margin-right: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    padding-right: 40px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    background-position: center;
+}
+.c1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.c1 h1{
+    color: white;
+}
+.talk{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: right;
+}
+.talk h1{
+    font-size:40px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+.form{
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 3px auto 6px;
+    text-align: center;
+    align-items: center;  
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    flex: 3;
+}
+form .column div{
+    height: 100%;
+}
+.message textarea{
+    height: 100%;
+    width: 100%;
+}
+form .column textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    resize: none;
+}
+.txt{
+    padding: 50px;
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    margin-bottom:4px;
+}
+.viewimage{
+    height: 400px;
+    background-image: url(bc3.jpg);
+    background-position: center 63%;
+    background-size: cover;
+}
+.c1 ul{
+    white-space: nowrap;
+    width: 100%;
+    list-style: none;
+    margin: 0 50px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.c1 ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-top:10px;
+}
+.c1 ul li a{
+    text-decoration: none;
+    color: white;   
+}
+.colum{
+    margin: 0 12px 2px;
+    overflow: hidden;
+}
+.colm{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px 20px;
+}
+.colum div.colm h1{
+    margin:5px 0 3px;
+    font-size: clamp(22px, 5.5vw, 45px);
+    color: #0f1110;
+}
+.product{
+    border-bottom: 1px solid black;
+}
+.titleproduct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.titpro{
+    display: block;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: clamp(10px, 1.9vw, 20px);
+}
+.dashed-line{
+    flex: 1px;
+}
+.menu-preview{
+    display: flex;
+    justify-content: center;
+}
+.menu-preview img{
+   width: 90%;
+}
+.career{
+    padding: 20px 30px ;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+}
+.career-image{
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(bac5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.career-content{
+    font-size: clamp(15px, 5px, 8px);
+    line-height: 40px;
+    margin-top: 10px;
+    text-align: right;
+}
+h1.vacance{
+    margin: 15px 35px;
+    border-bottom: 1px solid #ccc;
+    font-size: 25px;
+}
+.vacan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 20px 20px;
+}
+.vaca-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.contact-section h1{
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-section form{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px auto ;
+    padding-left: 50px;
+}
+form .row{
+    display: flex;
+    flex-direction: row;
+}
+form .column div.file-upl
+input{
+    display: none;
+}
+form .column div.file-upl
+.file pre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 1.1vw;
+}
+.file-upl label{
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+div.submitb input[type=submit]{
+    background: none;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+}
+.mession{
+    display: flex;
+    text-align: left;
+    height: 300px;
+    background-image: url(image.jpg);
+    margin-top: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.mession h1{
+    margin: 0 35px;
+    font-size: clamp(12px, 60px, 100px);
+    color: white;
+}
+.content{
+    background: rgba(225, 195, 136, .85);
+    border-radius: 15px;
+    padding: 20px 20px;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.mission{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.mission h1{
+    margin: 0 4px;
+    font-size: clamp(12px, 5vw, 100px);
+    color:white;
+}
+.content{
+    background: rgba(225, 195, 136, .85);
+    border-radius: 10px;
+    padding: 20px 15px;
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.content p{
+    margin: 10px;
+    font-size: small;
+}
+.interest-franchise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 25px;
+    font-size: 20px;
+}
+.franchise-btn{
+    background-color: rgba(225, 195, 136, .85);
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.franchise{
+    padding:25px 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    padding-right: 50px;
+}
+div.fran-img{
+    width: 50%;
+    height: 350px;
+    border-radius: 15px;
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.franchise h1{
+    color:white;
+    font-size: 40px;
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 50px;
+}
+.franchise p{
+    max-width: 100%;
+    margin: 5px 0 7px auto;
+    font-size: clamp(12px, 1.5vw, 30px);
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.recipe{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.grid{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(5, 140px);
+    width: max-content;
+}
+.topleft{
+    grid-area: 1/1/3/2;
+}
+.grid img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.topright{
+    grid-area: 1/2/4/2;
+}
+.bottomleft{
+    grid-area: 3/1/5/2;
+}
+.bottomright{
+    grid-area: 4/2/5/3;
+}
+.fran-content{
+    background-color: rgba(225, 195, 136, .85);
+    border-radius: 50px;
+}
+.cont{
+    background-color: rgba(225, 195, 136, .85);
+    border-radius: 50px;
+}
+.cont h1{
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+.cont p{
+    width: 60%;
+    margin: 50px;
+    font-size: 18px;
+}
+.contacts h1{
+    text-align: center;
+    font-size: 25px;
+}
+.contacts form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 25px auto;
+    
+}
